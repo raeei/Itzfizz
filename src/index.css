@@ -1,0 +1,18 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&family=Syne:wght@600;800&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Manrope:wght@300;500&family=Syne:wght@600;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #02070b;
+  color: #e8f6ff;
+}
+body {
+  margin: 0;
+  font-family: "Fraunces", inter;
+}
+.will {
+  will-change: transform, opacity;
+}
